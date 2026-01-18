@@ -1,0 +1,44 @@
+body {
+    background:
+        linear-gradient(
+            rgba(34, 34, 34, 0.85),
+            rgba(34, 34, 34, 0.85)
+        ),
+        url("img1.png");
+    background-size: cover;
+    background-position: center 40%;
+    background-color: #1c1c1c;
+}
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: #C4C4C4
+}
+
+.blogcontent {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: #000000
+    
+}
+
+.blogcontainer {
+    border: 2px solid #ab2626;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 900px;    
+    background-color: rgba(193, 193, 193, 0.4);
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    color: #C4C4C4
+}
