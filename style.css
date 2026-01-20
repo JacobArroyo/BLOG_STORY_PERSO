@@ -11,15 +11,16 @@ body {
 }
 
 h1 {
+    font-size:48px;
     font-family: 'Segoe UI', sans-serif;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
     color: #C4C4C4
 }
 
 .blogcontent {
-    margin-top: -10px;
-    margin-bottom: -10px;
+    margin-top: -20px;
+    margin-bottom: -20px;
     font-family: 'Segoe UI', sans-serif;
     font-size: 17px;
     text-align: left;
@@ -31,14 +32,34 @@ h1 {
     border: 2px solid #ab2626;
     box-shadow: 0px 4px 10px rgba(5, 5, 34, 1);
     padding: 30px;
-    margin: 50px auto;
+    margin: auto;
     max-width: 900px;    
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.listcontainer {
+    display: flex;
+    gap:40px;
+    width: 1100px;
+    margin-left: 430px;
+    
+}
+
+.leftcontainer, .rightcontainer {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    color: #C4C4C4;
+    text-shadow:
+        -1px -1px 0 #000000,
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+    
+}
+
 footer {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 30px;
     font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
     color: #C4C4C4
